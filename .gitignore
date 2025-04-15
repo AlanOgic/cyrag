@@ -1,0 +1,37 @@
+# Environment
+venv/
+.env
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Project-specific
+data/*
+!data/.gitkeep
+
+# Qdrant data
+.qdrant/
+
+# Large models
+fine_tuned_embedder/
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
